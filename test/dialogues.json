@@ -1,0 +1,32 @@
+{
+  "dialogues": [
+    {
+      "id": "5e5ea7e7-2a99-43dd-ad61-8ad5a7dcdef5",
+      "lines": [
+        {
+          "speaker": "Guard",
+          "text": "Halt! Who goes there?"
+        }
+      ],
+      "position": [
+        295.0,
+        234.44123640967737
+      ],
+      "title": "NPC Greeting"
+    },
+    {
+      "id": "bc856500-8d9b-466a-9b08-2aca1c8d5a6c",
+      "lines": [
+        {
+          "speaker": "Merchant",
+          "text": "Welcome to my shop! What can I get for you?"
+        }
+      ],
+      "position": [
+        568.0616120703763,
+        195.08854968020512
+      ],
+      "title": "Shop Keeper"
+    }
+  ]
+}

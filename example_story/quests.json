@@ -1,0 +1,278 @@
+{
+  "quests": [
+    {
+      "auto_start": false,
+      "branches": {},
+      "can_fail": false,
+      "description": "Help the villagers find their lost items that have been disappearing mysteriously.",
+      "failure_conditions": [],
+      "id": "find_lost_item",
+      "level_requirement": 0,
+      "objectives": [
+        {
+          "auto_complete": false,
+          "condition": "",
+          "dependencies": [],
+          "description": "Search the forest for clues about the missing items",
+          "hidden": false,
+          "id": "search_forest",
+          "optional": false,
+          "progress_current": 0,
+          "progress_required": 1,
+          "progress_type": "count"
+        },
+        {
+          "auto_complete": false,
+          "condition": "",
+          "dependencies": [
+            "search_forest"
+          ],
+          "description": "Discover unusual tracks or signs",
+          "hidden": false,
+          "id": "find_tracks",
+          "optional": false,
+          "progress_current": 0,
+          "progress_required": 1,
+          "progress_type": "count"
+        },
+        {
+          "auto_complete": false,
+          "condition": "",
+          "dependencies": [
+            "find_tracks"
+          ],
+          "description": "Recover the village elder's family heirloom",
+          "hidden": false,
+          "id": "recover_heirloom",
+          "optional": false,
+          "progress_current": 0,
+          "progress_required": 1,
+          "progress_type": "count"
+        },
+        {
+          "auto_complete": false,
+          "condition": "",
+          "dependencies": [
+            "recover_heirloom"
+          ],
+          "description": "Report your findings to the Village Elder",
+          "hidden": false,
+          "id": "report_findings",
+          "optional": false,
+          "progress_current": 0,
+          "progress_required": 1,
+          "progress_type": "count"
+        }
+      ],
+      "ports": [
+        {
+          "connected_to": [
+            "45c3da22-717c-4a23-9fc4-394a08472911"
+          ],
+          "connection_limit": -1,
+          "data_type": "quest",
+          "id": "87520889-047c-486e-8621-7ec03eeadaaa",
+          "name": "prerequisites",
+          "port_type": "input",
+          "position": [
+            -8,
+            52
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "b28c783b-1629-4ced-8d5f-31bb2d84f866"
+          ],
+          "connection_limit": -1,
+          "data_type": "quest",
+          "id": "1d351c98-59a9-4dd0-bc14-cb72f56dac84",
+          "name": "unlocks",
+          "port_type": "output",
+          "position": [
+            188,
+            52
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        521.0,
+        670.0
+      ],
+      "prerequisites": [],
+      "priority": 10,
+      "region_locked": "",
+      "repeatable": false,
+      "reward_gold": 0,
+      "reward_xp": 0,
+      "time_limit": 0,
+      "title": "The Missing Heirloom"
+    },
+    {
+      "auto_start": false,
+      "branches": {},
+      "can_fail": false,
+      "description": "Investigate the strange sounds coming from the forest at night.",
+      "failure_conditions": [],
+      "id": "forest_mystery",
+      "level_requirement": 0,
+      "objectives": [
+        {
+          "auto_complete": false,
+          "condition": "",
+          "dependencies": [],
+          "description": "Patrol the forest during nighttime",
+          "hidden": false,
+          "id": "night_patrol",
+          "optional": false,
+          "progress_current": 0,
+          "progress_required": 1,
+          "progress_type": "count"
+        },
+        {
+          "auto_complete": false,
+          "condition": "",
+          "dependencies": [
+            "night_patrol"
+          ],
+          "description": "Identify the source of the mysterious sounds",
+          "hidden": false,
+          "id": "identify_source",
+          "optional": false,
+          "progress_current": 0,
+          "progress_required": 1,
+          "progress_type": "count"
+        },
+        {
+          "auto_complete": false,
+          "condition": "",
+          "dependencies": [
+            "identify_source"
+          ],
+          "description": "Deal with whatever is causing the disturbances",
+          "hidden": false,
+          "id": "confront_threat",
+          "optional": true,
+          "progress_current": 0,
+          "progress_required": 1,
+          "progress_type": "count"
+        }
+      ],
+      "ports": [
+        {
+          "connected_to": [
+            "d25b07b3-8ba9-4156-b0e4-3f9c8432b278"
+          ],
+          "connection_limit": -1,
+          "data_type": "quest",
+          "id": "79fe5e5b-8b93-47ce-bf49-d0645d02ef19",
+          "name": "prerequisites",
+          "port_type": "input",
+          "position": [
+            -8,
+            52
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "87520889-047c-486e-8621-7ec03eeadaaa"
+          ],
+          "connection_limit": -1,
+          "data_type": "quest",
+          "id": "45c3da22-717c-4a23-9fc4-394a08472911",
+          "name": "unlocks",
+          "port_type": "output",
+          "position": [
+            188,
+            52
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        520.0,
+        540.0
+      ],
+      "prerequisites": [
+        "find_lost_item"
+      ],
+      "priority": 8,
+      "region_locked": "",
+      "repeatable": false,
+      "reward_gold": 0,
+      "reward_xp": 0,
+      "time_limit": 0,
+      "title": "Sounds in the Night"
+    },
+    {
+      "auto_start": false,
+      "branches": {},
+      "can_fail": false,
+      "description": "Complete all major quests and become the village's legendary hero.",
+      "failure_conditions": [],
+      "id": "village_hero",
+      "level_requirement": 0,
+      "objectives": [
+        {
+          "auto_complete": false,
+          "condition": "",
+          "dependencies": [],
+          "description": "Attend the village celebration in your honor",
+          "hidden": false,
+          "id": "celebration",
+          "optional": false,
+          "progress_current": 0,
+          "progress_required": 1,
+          "progress_type": "count"
+        }
+      ],
+      "ports": [
+        {
+          "connected_to": [
+            "1d351c98-59a9-4dd0-bc14-cb72f56dac84"
+          ],
+          "connection_limit": -1,
+          "data_type": "quest",
+          "id": "b28c783b-1629-4ced-8d5f-31bb2d84f866",
+          "name": "prerequisites",
+          "port_type": "input",
+          "position": [
+            -8,
+            52
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [],
+          "connection_limit": -1,
+          "data_type": "quest",
+          "id": "22ea65d6-e14d-4c60-beab-d02a09d0023d",
+          "name": "unlocks",
+          "port_type": "output",
+          "position": [
+            188,
+            52
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        519.0,
+        790.0
+      ],
+      "prerequisites": [
+        "find_lost_item",
+        "forest_mystery"
+      ],
+      "priority": 1,
+      "region_locked": "",
+      "repeatable": false,
+      "reward_gold": 0,
+      "reward_xp": 0,
+      "time_limit": 0,
+      "title": "Hero of Peaceful Village"
+    }
+  ]
+}

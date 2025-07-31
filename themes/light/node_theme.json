@@ -1,0 +1,158 @@
+{
+  "defaults": {
+    "colours": {
+      "dark_bg": "#f3f2f1",
+      "normal_bg": "#ffffff",
+      "hovered_bg": "#f3f2f1",
+      "selected_bg": "#0078d4",
+      "normal_text": "#323130",
+      "normal_border": "#c8c6c4"
+    }
+  },
+  "button": {
+    "colours": {
+      "normal_bg": "#ffffff",
+      "hovered_bg": "#f3f2f1",
+      "selected_bg": "#0078d4",
+      "normal_text": "#323130",
+      "normal_border": "#c8c6c4"
+    },
+    "misc": {
+      "border_width": "1",
+      "shadow_width": "1"
+    }
+  },
+  "panel": {
+    "colours": {
+      "dark_bg": "#f3f2f1",
+      "normal_border": "#c8c6c4"
+    },
+    "misc": {
+      "border_width": "1"
+    }
+  },
+  "window": {
+    "colours": {
+      "normal_bg": "#ffffff",
+      "normal_border": "#c8c6c4",
+      "normal_text": "#323130"
+    },
+    "misc": {
+      "border_width": "2",
+      "shadow_width": "2"
+    }
+  },
+  "selection_list": {
+    "colours": {
+      "dark_bg": "#ffffff",
+      "normal_bg": "#f3f2f1",
+      "hovered_bg": "#e1dfdd",
+      "selected_bg": "#0078d4",
+      "normal_text": "#323130",
+      "normal_border": "#c8c6c4"
+    },
+    "misc": {
+      "border_width": "1"
+    }
+  },
+  "text_entry_line": {
+    "colours": {
+      "dark_bg": "#ffffff",
+      "normal_bg": "#ffffff",
+      "normal_text": "#323130",
+      "normal_border": "#c8c6c4"
+    },
+    "misc": {
+      "border_width": "1"
+    }
+  },
+  "text_box": {
+    "colours": {
+      "dark_bg": "#ffffff",
+      "normal_bg": "#ffffff",
+      "normal_text": "#323130",
+      "normal_border": "#c8c6c4"
+    },
+    "misc": {
+      "border_width": "1"
+    }
+  },
+  "label": {
+    "colours": {
+      "normal_text": "#000000"
+    }
+  },
+  "drop_down_menu": {
+    "colours": {
+      "dark_bg": "#ffffff",
+      "normal_bg": "#ffffff",
+      "hovered_bg": "#f3f2f1",
+      "selected_bg": "#0078d4",
+      "normal_border": "#c8c6c4",
+      "normal_text": "#323130"
+    },
+    "misc": {
+      "border_width": "1"
+    }
+  },
+  "#toolbar": {
+    "colours": {
+      "dark_bg": "#faf9f8"
+    }
+  },
+  "#template_dialog": {
+    "colours": {
+      "normal_bg": "#ffffff",
+      "normal_border": "#0078d4"
+    },
+    "misc": {
+      "border_width": "2"
+    }
+  },
+  "#validation_dialog": {
+    "colours": {
+      "normal_bg": "#ffffff",
+      "normal_border": "#0078d4"
+    },
+    "misc": {
+      "border_width": "2"
+    }
+  },
+  "#add_node_menu": {
+    "colours": {
+      "normal_bg": "#ffffff",
+      "normal_border": "#0078d4"
+    },
+    "misc": {
+      "border_width": "2"
+    }
+  },
+  "#dialogue_node": {
+    "colours": {
+      "normal_bg": "#e3f2fd",
+      "normal_border": "#1976d2",
+      "normal_text": "#0d47a1"
+    }
+  },
+  "#quest_node": {
+    "colours": {
+      "normal_bg": "#fce4ec",
+      "normal_border": "#c2185b",
+      "normal_text": "#880e4f"
+    }
+  },
+  "#objective_node": {
+    "colours": {
+      "normal_bg": "#e8f5e8",
+      "normal_border": "#388e3c",
+      "normal_text": "#1b5e20"
+    }
+  },
+  "#choice_node": {
+    "colours": {
+      "normal_bg": "#fff3e0",
+      "normal_border": "#f57c00",
+      "normal_text": "#e65100"
+    }
+  }
+}

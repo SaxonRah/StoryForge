@@ -1,0 +1,351 @@
+{
+  "dialogues": [
+    {
+      "id": "c5b3c21d-e563-4f58-b252-8d9d84f5ddc6",
+      "lines": [
+        {
+          "condition_check": "player.level >= 5",
+          "false_path": "",
+          "speaker": "",
+          "text": "",
+          "true_path": ""
+        }
+      ],
+      "node_type": "condition",
+      "ports": [
+        {
+          "connected_to": [],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "e5f4ba84-e1a1-435d-be05-00a5686a056d",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            60
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "1ca77bf6-52c7-4b79-b7fb-7e88b53975f2"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "598b67c5-d634-4d67-b12e-767dc419e52f",
+          "name": "true",
+          "port_type": "output",
+          "position": [
+            208,
+            40
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "ca004abd-5932-461d-925a-2dbe15fd615a"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "d226079e-9c03-4307-bb2f-542a67a175b5",
+          "name": "false",
+          "port_type": "output",
+          "position": [
+            208,
+            80
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        433.0,
+        252.0
+      ],
+      "title": "Level Check"
+    },
+    {
+      "id": "67fbae9b-a183-4d3b-9b2e-c8f6dd1fba41",
+      "lines": [
+        {
+          "condition_check": "player.gold >= 100",
+          "false_path": "",
+          "speaker": "",
+          "text": "",
+          "true_path": ""
+        }
+      ],
+      "node_type": "condition",
+      "ports": [
+        {
+          "connected_to": [
+            "16802d4e-333d-4a60-893c-8e1c84318d04"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "f033f9f8-cdcf-4d83-b633-edba11682950",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            60
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "76ec1021-5279-4941-9928-7cfbbdca7ccb"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "3c9cba83-e6c3-451e-942f-990cb3f4f470",
+          "name": "true",
+          "port_type": "output",
+          "position": [
+            208,
+            40
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "b4b7966a-843c-487a-b284-158c2c4f2081"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "ac67003c-ab27-4501-a5d1-1f6dc442b332",
+          "name": "false",
+          "port_type": "output",
+          "position": [
+            208,
+            80
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        430.0,
+        98.0
+      ],
+      "title": "Resource Gate"
+    },
+    {
+      "id": "ff2219de-141b-43a9-8b46-7ec15680ad27",
+      "lines": [
+        {
+          "speaker": "",
+          "text": ""
+        }
+      ],
+      "node_type": "merge",
+      "ports": [
+        {
+          "connected_to": [
+            "3c9cba83-e6c3-451e-942f-990cb3f4f470"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "76ec1021-5279-4941-9928-7cfbbdca7ccb",
+          "name": "input_1",
+          "port_type": "input",
+          "position": [
+            -8,
+            40
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "598b67c5-d634-4d67-b12e-767dc419e52f"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "1ca77bf6-52c7-4b79-b7fb-7e88b53975f2",
+          "name": "input_2",
+          "port_type": "input",
+          "position": [
+            -8,
+            75
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "b3720b5f-d6ce-4726-b72f-f686c463fef1"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "c87c6441-6906-4e30-9ebc-78eb258516dd",
+          "name": "input_3",
+          "port_type": "input",
+          "position": [
+            -8,
+            110
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "11c50c4a-0bcb-4711-9761-d91439cd37a6"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "92c8e7d6-4a7f-462a-868b-c6a1fc746459",
+          "name": "output",
+          "port_type": "output",
+          "position": [
+            188,
+            75
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        798.0,
+        133.0
+      ],
+      "title": "Paths Converge"
+    },
+    {
+      "id": "1650f999-ba33-46d2-96d5-b02aa9512ccd",
+      "lines": [
+        {
+          "speaker": "",
+          "text": ""
+        }
+      ],
+      "node_type": "merge",
+      "ports": [
+        {
+          "connected_to": [
+            "ac67003c-ab27-4501-a5d1-1f6dc442b332"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "b4b7966a-843c-487a-b284-158c2c4f2081",
+          "name": "input_1",
+          "port_type": "input",
+          "position": [
+            -8,
+            40
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "d226079e-9c03-4307-bb2f-542a67a175b5"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "ca004abd-5932-461d-925a-2dbe15fd615a",
+          "name": "input_2",
+          "port_type": "input",
+          "position": [
+            -8,
+            75
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "d11e5451-361a-4fb5-9a0f-22287427726e"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "444ca0e6-5415-4c79-93fd-809c3423d08b",
+          "name": "input_3",
+          "port_type": "input",
+          "position": [
+            -8,
+            110
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "f033f9f8-cdcf-4d83-b633-edba11682950"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "16802d4e-333d-4a60-893c-8e1c84318d04",
+          "name": "output",
+          "port_type": "output",
+          "position": [
+            188,
+            75
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        820.0,
+        320.0
+      ],
+      "title": "Paths Converge"
+    },
+    {
+      "id": "34afaaf6-a552-4180-9f72-67716e552623",
+      "lines": [
+        {
+          "condition_check": "time == 'night'",
+          "false_path": "",
+          "speaker": "",
+          "text": "",
+          "true_path": ""
+        }
+      ],
+      "node_type": "condition",
+      "ports": [
+        {
+          "connected_to": [
+            "92c8e7d6-4a7f-462a-868b-c6a1fc746459"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "11c50c4a-0bcb-4711-9761-d91439cd37a6",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            60
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "c87c6441-6906-4e30-9ebc-78eb258516dd"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "b3720b5f-d6ce-4726-b72f-f686c463fef1",
+          "name": "true",
+          "port_type": "output",
+          "position": [
+            208,
+            40
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "444ca0e6-5415-4c79-93fd-809c3423d08b"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "d11e5451-361a-4fb5-9a0f-22287427726e",
+          "name": "false",
+          "port_type": "output",
+          "position": [
+            208,
+            80
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        432.0,
+        422.0
+      ],
+      "title": "Time Gate"
+    }
+  ]
+}

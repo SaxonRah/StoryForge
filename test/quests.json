@@ -1,0 +1,25 @@
+{
+  "quests": [
+    {
+      "description": "A new quest for the player",
+      "id": "e571f725-bde6-4c5c-90d9-ca02e0b55a71",
+      "objectives": [
+        {
+          "dependencies": [],
+          "description": "Complete the main task",
+          "id": "complete_task",
+          "optional": false
+        }
+      ],
+      "position": [
+        74.75107835055672,
+        153.41581079119666
+      ],
+      "prerequisites": [],
+      "priority": 5,
+      "reward_gold": 50,
+      "reward_xp": 100,
+      "title": "New Quest"
+    }
+  ]
+}

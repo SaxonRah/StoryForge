@@ -1,0 +1,122 @@
+{
+  "defaults": {
+    "colours": {
+      "dark_bg": "#1e1e1e",
+      "normal_bg": "#2d2d30",
+      "hovered_bg": "#3e3e42",
+      "selected_bg": "#0e639c",
+      "normal_text": "#cccccc",
+      "normal_border": "#3f3f46"
+    }
+  },
+  "button": {
+    "colours": {
+      "normal_bg": "#2d2d30",
+      "hovered_bg": "#3e3e42",
+      "selected_bg": "#0e639c",
+      "normal_text": "#cccccc",
+      "normal_border": "#3f3f46"
+    }
+  },
+  "panel": {
+    "colours": {
+      "dark_bg": "#1e1e1e",
+      "normal_border": "#3f3f46"
+    }
+  },
+  "window": {
+    "colours": {
+      "normal_bg": "#2d2d30",
+      "normal_border": "#3f3f46",
+      "normal_text": "#cccccc"
+    }
+  },
+  "selection_list": {
+    "colours": {
+      "dark_bg": "#1e1e1e",
+      "normal_bg": "#2d2d30",
+      "hovered_bg": "#3e3e42",
+      "selected_bg": "#0e639c",
+      "normal_text": "#cccccc",
+      "normal_border": "#3f3f46"
+    }
+  },
+  "text_entry_line": {
+    "colours": {
+      "dark_bg": "#1e1e1e",
+      "normal_bg": "#2d2d30",
+      "normal_text": "#cccccc",
+      "normal_border": "#3f3f46"
+    }
+  },
+  "text_box": {
+    "colours": {
+      "dark_bg": "#1e1e1e",
+      "normal_bg": "#2d2d30",
+      "normal_text": "#cccccc",
+      "normal_border": "#3f3f46"
+    }
+  },
+  "label": {
+    "colours": {
+      "normal_text": "#cccccc"
+    }
+  },
+  "drop_down_menu": {
+    "colours": {
+      "dark_bg": "#1e1e1e",
+      "normal_bg": "#2d2d30",
+      "hovered_bg": "#3e3e42",
+      "selected_bg": "#0e639c",
+      "normal_border": "#3f3f46",
+      "normal_text": "#cccccc"
+    },
+    "misc": {
+      "expand_direction": "down",
+      "border_width": "1",
+      "shadow_width": "2",
+      "list_item_height": "25"
+    }
+  },
+  "drop_down_menu.button": {
+    "colours": {
+      "normal_bg": "#2d2d30",
+      "hovered_bg": "#3e3e42",
+      "selected_bg": "#0e639c",
+      "normal_text": "#cccccc",
+      "normal_border": "#3f3f46"
+    }
+  },
+  "#toolbar": {
+    "colours": {
+      "dark_bg": "#252526"
+    }
+  },
+  "#template_dialog": {
+    "colours": {
+      "normal_bg": "#2d2d30",
+      "normal_border": "#0e639c"
+    },
+    "misc": {
+      "border_width": "2"
+    }
+  },
+  "#validation_dialog": {
+    "colours": {
+      "normal_bg": "#2d2d30",
+      "normal_border": "#0e639c"
+    },
+    "misc": {
+      "border_width": "2"
+    }
+  },
+  "#add_node_menu": {
+    "colours": {
+      "normal_bg": "#2d2d30",
+      "normal_border": "#0e639c"
+    },
+    "misc": {
+      "border_width": "2"
+    }
+  }
+}

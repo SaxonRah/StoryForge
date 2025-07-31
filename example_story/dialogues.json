@@ -1,0 +1,393 @@
+{
+  "dialogues": [
+    {
+      "id": "village_elder",
+      "lines": [
+        {
+          "choices": [
+            {
+              "condition": "",
+              "next": "village_info",
+              "reputation_changes": {},
+              "required_resources": {},
+              "state_changes": {},
+              "text": "Hello! What can you tell me about this place?"
+            },
+            {
+              "condition": "",
+              "next": "quest_offer",
+              "reputation_changes": {},
+              "required_resources": {},
+              "state_changes": {},
+              "text": "I'm looking for work. Got any quests?"
+            },
+            {
+              "condition": "",
+              "next": "",
+              "reputation_changes": {},
+              "required_resources": {},
+              "state_changes": {},
+              "text": "I must be going now."
+            }
+          ],
+          "speaker": "Village Elder",
+          "text": "Ah, young traveler! Welcome to our humble village."
+        }
+      ],
+      "node_type": "dialogue",
+      "ports": [
+        {
+          "connected_to": [],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "926f435c-8732-4cac-8225-f4beb3bcb6ba",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            50
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "9183133f-61c8-498e-a4e1-b79eeca9d524"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "1278cc9f-013b-4ac9-adb8-d56cb3ce89bf",
+          "name": "output",
+          "port_type": "output",
+          "position": [
+            188,
+            50
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        -6.0,
+        332.0
+      ],
+      "title": "Dialogue: village_elder"
+    },
+    {
+      "id": "village_info",
+      "lines": [
+        {
+          "next": "village_problems",
+          "speaker": "Village Elder",
+          "text": "This is Peaceful Village, home to kind folk and ancient mysteries. We've lived here for generations, but lately..."
+        }
+      ],
+      "node_type": "dialogue",
+      "ports": [
+        {
+          "connected_to": [
+            "1278cc9f-013b-4ac9-adb8-d56cb3ce89bf"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "9183133f-61c8-498e-a4e1-b79eeca9d524",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            61
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "3c61e6a1-62f9-40fd-a3a7-aa96cf05394b"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "f5590aed-9683-401c-9b68-98be7fab8c16",
+          "name": "output",
+          "port_type": "output",
+          "position": [
+            188,
+            61
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        -11.0,
+        448.0
+      ],
+      "title": "Dialogue: village_info"
+    },
+    {
+      "id": "village_problems",
+      "lines": [
+        {
+          "choices": [
+            {
+              "condition": "",
+              "next": "accept_investigation",
+              "reputation_changes": {},
+              "required_resources": {},
+              "state_changes": {},
+              "text": "I can help investigate these mysteries."
+            },
+            {
+              "condition": "",
+              "next": "decline_help",
+              "reputation_changes": {},
+              "required_resources": {},
+              "state_changes": {},
+              "text": "That sounds dangerous. Maybe someone else should handle it."
+            }
+          ],
+          "speaker": "Village Elder",
+          "text": "Strange things have been happening. Items go missing, and we hear odd sounds from the forest at night."
+        }
+      ],
+      "node_type": "dialogue",
+      "ports": [
+        {
+          "connected_to": [
+            "f5590aed-9683-401c-9b68-98be7fab8c16"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "3c61e6a1-62f9-40fd-a3a7-aa96cf05394b",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            61
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "e9b5200b-fa5f-4c27-a593-eb835ad60099"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "3f551112-b7ca-42ee-bbde-de247b82074c",
+          "name": "output",
+          "port_type": "output",
+          "position": [
+            209,
+            61
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        -21.0,
+        574.0
+      ],
+      "title": "Dialogue: village_problems"
+    },
+    {
+      "id": "quest_offer",
+      "lines": [
+        {
+          "next": "village_problems",
+          "speaker": "Village Elder",
+          "text": "Indeed! We could use someone brave like you. Our village has been plagued by mysterious disappearances."
+        }
+      ],
+      "node_type": "dialogue",
+      "ports": [
+        {
+          "connected_to": [
+            "3f551112-b7ca-42ee-bbde-de247b82074c"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "e9b5200b-fa5f-4c27-a593-eb835ad60099",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            61
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "e534212e-91a6-44d1-ae79-f1a195b682af"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "9450d5b5-cc89-4a4f-8bfd-53f60cfd95c2",
+          "name": "output",
+          "port_type": "output",
+          "position": [
+            188,
+            61
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        245.84773662551441,
+        405.3717421124828
+      ],
+      "title": "Dialogue: quest_offer"
+    },
+    {
+      "id": "accept_investigation",
+      "lines": [
+        {
+          "speaker": "Village Elder",
+          "text": "Excellent! Start by searching the forest. Look for anything unusual - tracks, disturbances, or our missing items."
+        }
+      ],
+      "node_type": "dialogue",
+      "ports": [
+        {
+          "connected_to": [
+            "17dd81a3-7674-4501-be3a-cf3761fdf122"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "89a64e77-c202-4340-8593-0be742223ae9",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            61
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "79fe5e5b-8b93-47ce-bf49-d0645d02ef19"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "d25b07b3-8ba9-4156-b0e4-3f9c8432b278",
+          "name": "output",
+          "port_type": "output",
+          "position": [
+            229,
+            61
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        512.0,
+        402.0
+      ],
+      "title": "Dialogue: accept_investigation"
+    },
+    {
+      "id": "decline_help",
+      "lines": [
+        {
+          "speaker": "Village Elder",
+          "text": "I understand. These are indeed perilous times. Perhaps you'll change your mind later."
+        }
+      ],
+      "node_type": "dialogue",
+      "ports": [
+        {
+          "connected_to": [
+            "7f191590-d87c-4b7a-86a5-9f1f6dc324e9"
+          ],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "daf35102-8cc6-4675-8c3b-fcccea07e90a",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            52
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [],
+          "connection_limit": -1,
+          "data_type": "dialogue",
+          "id": "44da1fe5-331d-4b93-b747-3fa2596c6cd0",
+          "name": "output",
+          "port_type": "output",
+          "position": [
+            188,
+            52
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        517.0096021947872,
+        261.8655692729767
+      ],
+      "title": "Dialogue: decline_help"
+    },
+    {
+      "id": "381637e4-190f-4ca2-b3d3-9c626be404e8",
+      "lines": [
+        {
+          "condition_check": "player.level >= 5",
+          "false_path": "",
+          "speaker": "",
+          "text": "",
+          "true_path": ""
+        }
+      ],
+      "node_type": "condition",
+      "ports": [
+        {
+          "connected_to": [
+            "9450d5b5-cc89-4a4f-8bfd-53f60cfd95c2"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "e534212e-91a6-44d1-ae79-f1a195b682af",
+          "name": "input",
+          "port_type": "input",
+          "position": [
+            -8,
+            60
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "89a64e77-c202-4340-8593-0be742223ae9"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "17dd81a3-7674-4501-be3a-cf3761fdf122",
+          "name": "true",
+          "port_type": "output",
+          "position": [
+            208,
+            40
+          ],
+          "required": false
+        },
+        {
+          "connected_to": [
+            "daf35102-8cc6-4675-8c3b-fcccea07e90a"
+          ],
+          "connection_limit": -1,
+          "data_type": "any",
+          "id": "7f191590-d87c-4b7a-86a5-9f1f6dc324e9",
+          "name": "false",
+          "port_type": "output",
+          "position": [
+            208,
+            80
+          ],
+          "required": false
+        }
+      ],
+      "position": [
+        253.26576653175988,
+        264.52098786044314
+      ],
+      "title": "Level Check"
+    }
+  ]
+}
