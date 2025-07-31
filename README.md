@@ -42,6 +42,8 @@ Built with Python, PyGame, and PyGame GUI.
 - **Search & Filter**: Quick node discovery and organization
 - **Real-time Updates**: Changes reflect immediately across all panels
 
+See [PossibleFeatures.md] for future features!
+
 ## Installation
 
 ### Prerequisites
