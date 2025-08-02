@@ -1,11 +1,8 @@
 ![StoryForge Logo](https://github.com/SaxonRah/StoryForge/blob/main/images/StoryForge_Logo.png "StoryForge Logo")
 # StoryForge: Quest and Dialogue Editor [Version 0.1]
-
-## WIP Building [pygame-gui-extensions](https://github.com/SaxonRah/pygame-gui-extensions) instead of raw pygame-gui.
-A visual node-based editor for creating interactive dialogue systems and quest structures for games.
-
-Built with Python, PyGame, and PyGame GUI.
-
+### A visual node-based editor for creating interactive dialogue systems and quest structures for games.
+#### Built with Python, PyGame, and PyGame GUI.
+## WIP Building [pygame-gui-extensions](https://github.com/SaxonRah/pygame-gui-extensions) instead of using raw pygame-gui.
 
 ![Quest & Dialogue Editor](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
